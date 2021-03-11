@@ -1,0 +1,83 @@
+\documentclass[svgnames,12pt,aspectratio=149]{beamer}
+% for presentation
+ \mode<presentation>%
+%
+{
+  \usetheme{Boadilla}%Malmoe looks good, Montpellier n'est pas mal, Warsaw
+  % or ...
+  
+  \setbeamercovered{dynamic}
+  % or whatever (possibly just delete it)
+}
+\usepackage[english,french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{BeamerLille}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+
+
+\usepackage{amssymb,amsfonts}
+
+\author{Prénom Nom}
+\title{Présentation}
+\subtitle{Selon les couleurs de l'Université de Lille}
+
+
+
+\begin{document}
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\section{Introduction générale}
+\begin{frame}
+  \frametitle{Introduction}
+
+  \begin{itemize}
+  \item Point A
+  \item Point B
+  \item Point C
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Une énumération}
+
+  \begin{enumerate}
+  \item Premier
+  \item Deuxième
+  \item Troisième
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Environnements}
+  \begin{block}{Test}
+    Ceci est un block
+  \end{block}
+
+
+  \begin{alertblock}{Test}
+    Ceci est un block
+  \end{alertblock}
+
+  \begin{exampleblock}{Test}
+    Ceci est un block
+  \end{exampleblock}
+
+  Comme vous voyez, les \alert{blocks} et \alert{alertblocks} sont identiques.
+  
+\end{frame}
+
+\end{document}
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
